@@ -99,9 +99,12 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  background-color: #4682b4; 
+  height: 100vh;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*=================================
   Header styling starts here
@@ -120,10 +123,90 @@ li {
   main styling starts here
 =================================*/
 
+.login-container {
+  width: 20%;
+  padding: 0 0 36px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a4e6c;
+  color: #fff;
+}
 
+.login-title {
+  margin-top: 50px;
+  font-size: 35px;
+  text-transform: capitalize;
+}
 
+.form-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
 
+.form-group {
+  box-sizing: border-box;
+  flex-basis: 100%;
+  margin: 40px 0 20px;
+  position: relative;
+}
 
+.form-group label {
+  position: absolute;
+  bottom: 18px;
+  cursor: default;
+  font-size: 16px;
+}
+
+.form-group span { 
+  margin-left: -4px; 
+}
+
+.form-group span:first-child { margin-left: 0; }
+
+.form-group input {
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  font-size: 18px;
+  outline: none;
+}
+
+.form-group input:focus { border-color: #add8e6; }
+
+.form-control {
+  margin: 20px 0;
+  flex-basis: 100%;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 19px 0 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: #add8e6;
+  font-size: 15px;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.register {
+  margin: 15px 0 0 40px;
+  align-self: flex-start;
+  line-height: 1;
+}
+
+.register a {
+  color: #add8e6;
+  text-transform: capitalize;
+}
+
+.addWave { transform: translateY(-30px); }
 
 
 
