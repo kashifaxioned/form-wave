@@ -161,7 +161,8 @@ li {
 }
 
 .form-group span { 
-  margin-left: -4px; 
+  margin-left: -3px;
+  font-size: 18px;
 }
 
 .form-group span:first-child { margin-left: 0; }
@@ -206,7 +207,12 @@ li {
   text-transform: capitalize;
 }
 
-.addWave { transform: translateY(-30px); }
+.addWave { 
+  display: inline-block;
+  color: #add8e6;
+  transform: translateY(-20px); 
+  transition: .1s ease-in-out;
+}
 
 
 
