@@ -162,7 +162,10 @@ li {
 
 .form-group span { 
   margin-left: -3px;
+  display: inline-block;
+  color: #add8e6;
   font-size: 18px;
+  transition: .1s ease-in-out;
 }
 
 .form-group span:first-child { margin-left: 0; }
@@ -207,12 +210,7 @@ li {
   text-transform: capitalize;
 }
 
-.addWave { 
-  display: inline-block;
-  color: #add8e6;
-  transform: translateY(-20px); 
-  transition: .1s ease-in-out;
-}
+.addWave { transform: translateY(-20px); }
 
 
 
